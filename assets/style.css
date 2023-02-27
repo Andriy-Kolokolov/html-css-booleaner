@@ -36,11 +36,37 @@ header {
 
 #main-title > #sub-title {
     color: grey;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 #main-title .author-link {
     text-decoration: none;
-    color: #288dff;
+    color: #0064d4;
 }
+
+.photos {
+    height: 300px;
+}
+
+.photo {
+    display: inline-block;
+    height: 100%;
+}
+
+.photo img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+
+/*.photos {*/
+/*    display: block;*/
+/*    width: 100vw;*/
+/*}*/
+
+/*.photos img {*/
+/*    width: 40%;*/
+/*}*/
 
