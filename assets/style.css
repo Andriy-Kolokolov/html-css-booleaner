@@ -62,12 +62,20 @@ section {
     max-width: 100%;
 }
 
+.photo-description {
+    font-size: 13px;
+}
+
 ul {
     list-style-position: inside;
 /*    senno' puntino di "li" mi esce fuori dal parent container   */
 }
 
 /*  ----    TABLE START  ----  */
+
+table th, td {
+    text-align: left;
+}
 
 .table-header {
     background: #20a8e3;
@@ -95,4 +103,25 @@ ul {
 }
 
 /*  ----    TABLE END  ----  */
+
+#suggestions-section h3 {
+    color: grey;
+}
+
+#suggestions-section .suggestion {
+    margin-top: 10px;
+    position: relative;
+}
+
+#suggestions-section .suggestion-title {
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+
 
