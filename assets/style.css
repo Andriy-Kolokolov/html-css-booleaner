@@ -13,6 +13,10 @@ header {
     background-repeat: repeat;
 }
 
+section {
+    margin-top: 20px;
+}
+
 .content {
     padding: 0 10px;
 }
@@ -58,15 +62,37 @@ header {
     max-width: 100%;
 }
 
+ul {
+    list-style-position: inside;
+/*    senno' puntino di "li" mi esce fuori dal parent container   */
+}
 
+/*  ----    TABLE START  ----  */
 
+.table-header {
+    background: #20a8e3;
+    color: white;
+}
 
-/*.photos {*/
-/*    display: block;*/
-/*    width: 100vw;*/
-/*}*/
+.row-color1 {
+    background: #b0e3f0;
+}
 
-/*.photos img {*/
-/*    width: 40%;*/
-/*}*/
+.row-color2 {
+    background: #fdfdfd;
+}
+
+.column1 {
+    width: 20%;
+}
+
+.column2 {
+    width: 20%;
+}
+
+.column3 {
+    width: 60%;
+}
+
+/*  ----    TABLE END  ----  */
 
